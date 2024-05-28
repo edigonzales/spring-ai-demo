@@ -1,5 +1,7 @@
 # spring-ai-demo
 
+https://platform.openai.com/usage
+
 https://www.urlencoder.org/de/
 
 ## Simple
