@@ -85,7 +85,32 @@ curl -i -X GET http://localhost:8080/api/rag/organisation?message=Wie%20viele%20
 curl -i -X GET http://localhost:8080/api/rag/organisation?message=Wie%20viele%20Amtschefs%20gibt%20es%20im%20Kanton%20Solothurn
 ```
 
-
 ```
 curl -i -X GET http://localhost:8080/api/rag/organisation?message=Wie%20viele%20weibliche%20Amtschefs%20gibt%20es%20im%20Kanton%20Solothurn
 ```
+
+## Functions
+
+```
+curl -i -X GET http://localhost:8080/api/functions/cities?message=Welches%20ist%20die%20gr%C3%B6sste%20Stadt%20in%20der%20Schweiz
+```
+
+```
+curl -i -X GET http://localhost:8080/api/functions/cities?message=Wie%20ist%20das%20Wetter%20in%20Z%C3%BCrich%20(Schweiz)
+```
+
+
+```
+curl -i -X GET http://localhost:8080/api/functions/cities?message=Wie%20ist%20das%20Wetter%20in%20Solothurn
+```
+
+
+```
+curl -i -X GET http://localhost:8080/api/functions/oereb?message=Welche%20Eigentumsbeschr%C3%A4nkungen%20gibt%20es%20auf%20dem%20Grundst%C3%BCck%20mit%20dem%20EGRID%20CH788232067709
+```
+
+```
+curl -i -X GET http://localhost:8080/api/functions/oereb?message=Welche%20Eigentumsbeschr%C3%A4nkungen%20gibt%20es%20auf%20dem%20Grundst%C3%BCck%20114%20in%20der%20Gemeinde%20Zuchwil
+```
+
+Schwierigkeit wenn Benutzereingabe nicht eindeutig. Z.B. bei fusionierten Gemeinden "Messen 169". Anwendung müsste das merken und dem Benutzer mitteilen.
