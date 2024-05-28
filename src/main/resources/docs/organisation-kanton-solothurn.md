@@ -12,3 +12,13 @@
 
 - Amt für Landwirtschaft (ALW): Felix Schibli
 - Amt für Wald, Jagd und Fischerei (AWJF): Rolf Manser
+- Amt für Gemeinden (AGEM): Grolimund André 
+- Amt für Militär und Bevölkerungsschutz (AMB): Diego Ochsner
+- Amt für Wirtschaft und Arbeit (AWA): R. Frei
+
+## Departement des Innern (DDI)
+
+- Amt für Gesellschaft und Soziales (AGS): Sandro Müller
+- Gesundheitsamt (GESA): Peter Eberhard
+- Migrationsamt: Johanna Schwegler
+- Amt für Justizvollzug (AJUV): Michael Leutwyler
