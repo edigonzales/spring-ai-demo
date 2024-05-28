@@ -37,7 +37,7 @@ public class OrganisationRagController {
     @GetMapping("/api/rag/organisation")
     public String faq(@RequestParam(value = "message", defaultValue = "Wer ist Amtschef oder Amtschefin im Amt für Raumplanung") String message) {
         List<Document> similarDocuments = vectorStore.similaritySearch(SearchRequest.query(message).withTopK(2));
-        logger.info(similarDocuments.toString());
+        //logger.info(similarDocuments.toString());
         List<String> contentList = similarDocuments.stream().map(Document::getContent).toList();
         PromptTemplate promptTemplate = new PromptTemplate(ragPromptTemplate);
         Map<String, Object> promptParameters = new HashMap<>();
